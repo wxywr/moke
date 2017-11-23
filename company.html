@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+	<meta name="applicable-device" content="mobile">
+	<title>公司介绍</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css" >
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+</head>
+<body>
+	<header>
+		<div class="fl fold"></div>
+		<div class="fr logo"></div>
+	</header>
+	<ul id="accordion" class="accordion">
+		<li>
+			<div class="link"><a href="company.html">公司介绍</a></div>
+			<!-- <ul class="submenu">
+				<li><a href="#">走进联影</a></li>
+				<li><a href="#">影响力</a></li>
+			</ul> -->
+		</li>
+		<li>
+			<div class="link"><a href="value.html">摩客价值</a></div>
+			<!-- <ul class="submenu">
+				<li><a href="#">uMI系列</a></li>
+				<li><a href="#">uMR系列</a></li>
+				<li><a href="#">uCT系列</a></li>
+			</ul> -->
+		</li>
+		<li>
+			<div class="link"><a href="case.html">案例展示</a></div>
+		</li>
+		<li>
+			<div class="link"><a href="business.html">业务范围</a></div>
+		</li>
+		<li>
+			<div class="link"><a href="contact.html">联系我们</a></div>
+		</li>
+	</ul>
+	<!-- <div class="business">
+		<h1>公司介绍</h1>
+		<p>遥远的山脉后面，远离国家Vokalia和Consonantia，生活中的盲文。分开他们住在Bookmarksgrove.</p>
+	</div> -->
+	<div class="swiper-container company">
+	    <div class="swiper-wrapper">
+	        <div class="swiper-slide">
+	      		<h1>公司介绍</h1>
+				<p class="txt">遥远的山脉后面，远离国家Vokalia和Consonantia，生活中的盲文。分开他们住在Bookmarksgrove.</p>
+				<div class="introduce">
+					<div class="img"></div>
+					<div class="tit ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">从传播到驱动</div>
+					<p  class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">以极致标准驱动架构革新，不断迭代客户服务体验，重新定义创意服务团队在互动时代的全新形象</p>
+				</div>
+				<div class="arrow bounce"></div>
+	      	</div>
+		    <div class="swiper-slide">
+		    	<div class="introduce margin">
+					<div class="img"></div>
+					<div class="tit ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">2009</div>
+					<p  class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">以摩客的名义，一群年轻媒体人开始集结，未探索传媒业无限可能，开启了一个关于青春的故事</p>
+				</div>
+				<div class="arrow bounce"></div>
+		    </div>
+		    <div class="swiper-slide">
+		    	<div class="introduce margin">
+					<div class="img"></div>
+					<div class="tit ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">2012</div>
+					<p  class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">互联网时代来临，信息技术，以迅雷之势革新传媒业全新面貌，代表了全新的服务能力</p>
+				</div>
+				<div class="arrow bounce"></div>
+		    </div>
+		    <div class="swiper-slide">
+		    	<div class="introduce">
+					<div class="img"></div>
+					<div class="tit ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">2013</div>
+					<p  class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">摩客成立，以全新的数字传授理念，建立品牌和用户之间全新关系，并以至臻完美的服务理念</p>
+				</div>
+				<a href="#" class="func">查看所有功能</a>
+		    </div>
+	    </div>
+    <!-- Add Pagination -->
+    <!-- <div class="swiper-pagination"></div> -->
+  	</div>
+</body>
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/menu.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript" src="js/swiper.animate1.0.2.min.js"></script>
+<script>
+    var swiper = new Swiper('.company', {
+      direction: 'vertical',
+      // pagination: {
+      //   el: '.swiper-pagination',
+      //   clickable: true,
+      // },
+      onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+      swiperAnimateCache(swiper); //隐藏动画元素 
+      swiperAnimate(swiper); //初始化完成开始动画
+    }, 
+    onSlideChangeEnd: function(swiper){ 
+      swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+    } 
+    });
+  </script>
+</html>	

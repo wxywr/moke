@@ -1,0 +1,384 @@
+body,ul,ol,p,h1,h2,h3,h4,h5,dl,dd,form,input,textarea,
+td,th,button,strong,em,select,video,canvas{margin:0;padding:0;}
+li{list-style:none;}
+table{ border-collapse:collapse;}
+textarea{resize:none;overflow:auto;}
+img{ border:none; vertical-align:middle;max-width: 100%;display: block;}
+em{ font-style:normal;}
+a{ text-decoration:none;}
+a,input{-webkit-appearance: none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+input{outline: none;}
+a, img {-webkit-touch-callout: none;}
+html, body {-webkit-user-select: none;user-select: none; position: relative; height: 100%;}
+body{font-family: "Helvetica Neue", Helvetica, "STHeiTi", sans-serif; overflow-x:hidden; overflow-y:auto;font-size: 0.14rem;}
+html{font-size: 100px;}
+.fl{float:left;}
+.fr{float:right;}
+header{
+	width: 100%;
+	height: 8%;
+	background-color: #FFF;
+	overflow: hidden;
+	border-bottom: 1PX solid #ccc;
+}
+header .logo{
+	width: 0.4rem;
+	height: 0.4rem;
+	margin: 0.08rem 3% 0 0;
+	background: url(../img/logo.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+header .fold{
+  width: 0.5rem;
+  height: 0.35rem;
+  margin: 0.1rem 0 0 3%;
+  background: url(../img/icon-1.png) no-repeat;
+  background-size: 50%;
+  background-position: center left;
+}
+/*案例展示*/
+.news h1{
+	color: #333;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0.5rem;
+	font-size: 0.34rem;
+}
+.news p{
+	width: 90%;
+	margin: 0.2rem auto 0.3rem;
+	color: #999;
+	font-size: 0.18rem;
+	text-align: center;
+}
+.news  {
+    width: 100%;
+    height: 92%;
+    background-color: #FAFAFA;
+}
+.news .swiper-slide {
+      text-align: center;
+      /*font-size: 18px;*/
+      background: #fff;
+
+      /* Center slide text vertically */
+     /* display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;*/
+     /* -webkit-align-items: center;
+      align-items: center;*/
+}
+.news .news-all{
+	width: 90%;
+	margin: 0.5rem auto 0;
+	background-color:#fff;
+	padding-bottom: 0.1rem;
+}
+.news .margin{
+	margin-top: 1.5rem;
+}
+.news .news-all .img{
+	width: 90%;
+	margin: 0 auto;
+	height: 2.3rem;
+	background-color: #333;
+}
+.news .news-all .img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.news .news-all .tit{
+	font-size: 0.14rem;
+	color: #333;
+	margin: 0.35rem auto 0;
+	text-align: center;
+}
+.news .see{
+	display: block;
+	width: 45%;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	background-color: #50D2C2;
+	text-align: center;
+	font-size: 0.14rem;
+	color: #fff;
+	margin: 0.3rem auto 0;
+	border-radius: 0.3rem;
+	letter-spacing: 0.05rem;
+}
+/*业务范围*/
+.first{
+	 width: 100%;
+     height: 57%;
+     background-color: #fff;
+}
+.first .swiper-slide {
+     text-align: center;
+      background: #fff;
+
+      /* Center slide text vertically */
+     /* display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;*/
+}
+.first .tit{
+	font-size: 0.14rem;
+	color: #333;
+	margin: 0.35rem auto 0;
+	text-align: center;
+}
+.first p{
+	width: 90%;
+	margin: 0.2rem auto 0.3rem;
+	color: #999;
+	font-size: 0.16rem;
+	text-align: center;
+}
+.business{
+	width: 100%;
+	height: 35%;
+	padding-top: 10%;
+}
+.business h1{
+	color: #333;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0rem;
+	font-size: 0.34rem;
+}
+.business p{
+	width: 90%;
+	margin: 0.2rem auto 0.3rem;
+	color: #999;
+	font-size: 0.18rem;
+	text-align: center;
+}
+.first .img{
+	width: 1rem;
+	margin: 0.8rem auto 0.3rem;
+	height: 0.6rem;
+	background: url(../img/computer.png) no-repeat;
+	background-size: 70%;
+	background-position: center;
+}
+/*联系我们*/
+.contact{
+	background-color: #4FD2C2;
+	width: 100%;
+	padding: 0.7rem 0;
+}
+.contact input{
+	display: block;
+	width: 90%;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	margin: 0 auto 0.2rem;
+	border: 2px solid #fff;
+	color: #eee;
+	font-size: 0.16rem;
+	background-color: #4FD2C2;
+	border-radius: 0.05rem;
+	text-indent: 0.1rem;
+}
+.contact button{
+	display: block;
+    width: 45%;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    background-color: #30BEAC;
+    text-align: center;
+    font-size: 0.14rem;
+    color: #fff;
+    margin: 0 auto;
+    border-radius: 0.3rem;
+    letter-spacing: 0.05rem;
+    border: 0;
+    outline: none;
+}
+input::-webkit-input-placeholder {
+	color: #eee;
+	text-indent: 0.1rem;
+}
+footer{
+	width: 100%;
+	background-color: #363B43;
+	padding-top: 0.5rem;
+	padding-bottom: 1rem;
+}
+footer h4{
+	width: 90%;
+	margin: 0.3rem auto 0;
+	color: #fff;
+}
+footer p{
+	width: 90%;
+	margin: 0.12rem auto;
+	color: #ccc;
+	font-size: 0.16rem;
+}
+footer .big{
+	width: 40%;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	margin: 0.3rem 0 0.15rem 5%;
+	border: 2px solid #ccc;
+	font-size: 0.2rem;
+	color: #ccc;
+	text-align: center;
+	letter-spacing: 0.03rem;
+}
+footer .small{
+	width: 90%;
+	margin: 0 auto 0.1rem;
+	color: #ccc;
+	font-size: 0.14rem;
+}
+footer img{
+	margin: 0.3rem 0 0 5%;
+}
+/*摩客价值*/
+.value{
+	width: 90%;
+	margin: 0 auto 1rem;
+}
+.value .img{
+	width: 1rem;
+	margin: 0 auto;
+	height: 0.6rem;
+	background: url(../img/computer.png) no-repeat;
+	background-size: 70%;
+	background-position: center;
+}
+.value .tit{
+	font-size: 0.14rem;
+	color: #333;
+	margin: 0.2rem auto 0;
+	text-align: center;
+}
+.value p{
+	margin: 0.8rem auto 0.3rem;
+	color: #999;
+	font-size: 0.16rem;
+	text-align: center;
+}
+.arrow {
+    width: 0.3rem;
+    height: 0.3rem;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -0.15rem;
+    background: url(../img/btm.png) no-repeat;
+    background-size: 80%;
+    background-position: center;
+    z-index: 1000;
+}
+.arrow {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+/*公司介绍*/
+.company {
+      width: 100%;
+      height: 92%;
+      background-color: #FAFAFA;
+    }
+.company .swiper-slide {
+      text-align: center;
+      /*font-size: 18px;*/
+      background: #FAFAFA;
+
+      /* Center slide text vertically */
+      /*display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;*/
+    }
+.company h1{
+	color: #333;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 0.34rem;
+}
+.company .txt{
+	width: 90%;
+	margin: 0 auto;
+    font-size: 0.18rem;
+    color: #333;
+    margin: 0.2rem auto 0;
+    text-align: center;
+}
+ .company .introduce .tit {
+    font-size: 0.14rem;
+    color: #333;
+    margin: 0.35rem auto 0;
+    text-align: center;
+}
+.introduce{
+	width: 90%;
+	margin: 0.6rem auto 0;
+	background-color: #fff;
+	padding: 0.3rem 0 0.6rem;
+}
+.company .introduce p {
+	width: 90%;
+	margin: 0 auto;
+    font-size: 0.16rem;
+    color: #333;
+    margin: 0.15rem auto 0;
+    text-align: center;
+}
+.company .img {
+    width: 1rem;
+    margin: 0.3rem auto 0;
+    height: 0.6rem;
+    background: url(../img/computer.png) no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+.company .margin{
+	margin-top: 1rem;
+	padding: 0.8rem 0 1rem;
+}
+.func {
+    display: block;
+    width: 45%;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    background-color: #50D2C2;
+    text-align: center;
+    font-size: 0.14rem;
+    color: #fff;
+    margin: 0.8rem auto 0;
+    border-radius: 0.3rem;
+    letter-spacing: 0.05rem;
+}
