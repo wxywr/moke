@@ -17,7 +17,7 @@ ul {
 
 a {
 	/*color: #b63b4d;*/
-	color: #333;
+	color: #fff;
 	text-decoration: none;
 }
 
@@ -39,12 +39,14 @@ h1 a {
 
  .accordion {
  	width: 100%;
+ 	height: 92%;
  	/*max-width: 360px;*/
  	margin: 0 auto;
- 	background: #FFF;
- 	-webkit-border-radius: 4px;
- 	-moz-border-radius: 4px;
- 	position: absolute;
+ 	background: #333;
+ 	opacity: 0.9;
+ 	/*-webkit-border-radius: 4px;
+ 	-moz-border-radius: 4px;*/
+ 	position: fixed;
  	left: 0;
  	top: 8%;
  	z-index: 10000;
@@ -54,7 +56,7 @@ h1 a {
 .accordion .link {
 	cursor: pointer;
 	display: block;
-	padding: 10px 15px 10px 6%;
+	padding: 10px 15px 10px 5%;
 	color: #333232;
 	font-size: 14px;
 	font-weight: 700;

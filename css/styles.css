@@ -17,163 +17,113 @@ html{font-size: 100px;}
 header{
 	width: 100%;
 	height: 8%;
-	background-color: #FFF;
-	overflow: hidden;
-	border-bottom: 1PX solid #ccc;
+	background-color: #fff;
+	/*overflow: hidden;*/
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10000;
 }
 header .logo{
-	width: 0.4rem;
+	width: 0.5rem;
 	height: 0.4rem;
-	margin: 0.08rem 3% 0 0;
+	display: inline-block;
+	margin-left: -0.25rem;
 	background: url(../img/logo.png) no-repeat;
 	background-size: cover;
 	background-position: center;
+	position: absolute;
+	left: 50%;
+	top: 14%;
 }
 header .fold{
-  width: 0.5rem;
-  height: 0.35rem;
-  margin: 0.1rem 0 0 3%;
+  width: 0.35rem;
+  height: 0.3rem;
+  display: inline-block;
+  margin: 0.13rem 0 0 5%;
   background: url(../img/icon-1.png) no-repeat;
-  background-size: 50%;
+  background-size: 90%;
   background-position: center left;
 }
 /*案例展示*/
-.news h1{
-	color: #333;
-	font-weight: bold;
-	text-align: center;
-	margin-top: 0.5rem;
-	font-size: 0.34rem;
-}
-.news p{
-	width: 90%;
-	margin: 0.2rem auto 0.3rem;
-	color: #999;
-	font-size: 0.18rem;
-	text-align: center;
-}
-.news  {
+.news{
     width: 100%;
-    height: 92%;
-    background-color: #FAFAFA;
+    background-color: #F4F4F4;
+    padding: 0.3rem 0;
+    margin-top: 14%;
 }
-.news .swiper-slide {
-      text-align: center;
-      /*font-size: 18px;*/
-      background: #fff;
-
-      /* Center slide text vertically */
-     /* display: -webkit-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;*/
-     /* -webkit-align-items: center;
-      align-items: center;*/
-}
-.news .news-all{
+.news .news-wrap{
 	width: 90%;
-	margin: 0.5rem auto 0;
-	background-color:#fff;
-	padding-bottom: 0.1rem;
+	margin: 0 auto 0.3rem;
+	background-color: #fff;
+	padding: 0.3rem 0;
 }
-.news .margin{
-	margin-top: 1.5rem;
-}
-.news .news-all .img{
+.news .news-wrap .img{
 	width: 90%;
 	margin: 0 auto;
-	height: 2.3rem;
-	background-color: #333;
+	height: 2rem;
+	background-color: #fff;
 }
-.news .news-all .img img{
+.news .news-wrap .img img{
 	display: block;
 	width: 100%;
 	height: 100%;
 }
-.news .news-all .tit{
+.news .news-wrap .tit{
 	font-size: 0.14rem;
 	color: #333;
-	margin: 0.35rem auto 0;
-	text-align: center;
-}
-.news .see{
-	display: block;
-	width: 45%;
-	height: 0.6rem;
-	line-height: 0.6rem;
-	background-color: #50D2C2;
-	text-align: center;
-	font-size: 0.14rem;
-	color: #fff;
 	margin: 0.3rem auto 0;
-	border-radius: 0.3rem;
-	letter-spacing: 0.05rem;
-}
-/*业务范围*/
-.first{
-	 width: 100%;
-     height: 57%;
-     background-color: #fff;
-}
-.first .swiper-slide {
-     text-align: center;
-      background: #fff;
-
-      /* Center slide text vertically */
-     /* display: -webkit-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      align-items: center;*/
-}
-.first .tit{
-	font-size: 0.14rem;
-	color: #333;
-	margin: 0.35rem auto 0;
 	text-align: center;
 }
-.first p{
+.news .news-wrap p{
 	width: 90%;
-	margin: 0.2rem auto 0.3rem;
-	color: #999;
+	margin: 0.15rem auto 0;
+	color: #333;
 	font-size: 0.16rem;
 	text-align: center;
 }
-.business{
+/*.news .see{
+	display: block;
+    width: 32%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    background-color: #50D2C2;
+    text-align: center;
+    font-size: 0.14rem;
+    color: #fff;
+    margin: 0.15rem auto 0;
+    border-radius: 0.2rem;
+    letter-spacing: 0.02rem;
+}*/
+/*业务范围*/
+.business-wrap{
 	width: 100%;
-	height: 35%;
-	padding-top: 10%;
+    background-color: #F4F4F4;
+    padding: 0.3rem 0;
+    margin-top: 14%;
 }
-.business h1{
-	color: #333;
-	font-weight: bold;
-	text-align: center;
-	margin-top: 0rem;
-	font-size: 0.34rem;
-}
-.business p{
+.business-wrap .bs-all{
 	width: 90%;
-	margin: 0.2rem auto 0.3rem;
-	color: #999;
-	font-size: 0.18rem;
+	margin: 0 auto 0.3rem;
+	background-color: #fff;
+	padding: 0.3rem 0;
+}
+.business-wrap .tit{
+	font-size: 0.14rem;
+	color: #333;
+	margin: 0.3rem auto 0;
 	text-align: center;
 }
-.first .img{
+.business-wrap p{
+	width: 90%;
+	margin: 0.15rem auto 0;
+	color: #333;
+	font-size: 0.16rem;
+	text-align: center;
+}
+.business-wrap .img{
 	width: 1rem;
-	margin: 0.8rem auto 0.3rem;
+	margin: 0 auto;
 	height: 0.6rem;
 	background: url(../img/computer.png) no-repeat;
 	background-size: 70%;
@@ -183,7 +133,8 @@ header .fold{
 .contact{
 	background-color: #4FD2C2;
 	width: 100%;
-	padding: 0.7rem 0;
+	padding: 0.5rem 0;
+	margin-top: 14%;
 }
 .contact input{
 	display: block;
@@ -200,16 +151,16 @@ header .fold{
 }
 .contact button{
 	display: block;
-    width: 45%;
-    height: 0.6rem;
-    line-height: 0.6rem;
+    width: 32%;
+    height: 0.4rem;
+    line-height: 0.4rem;
     background-color: #30BEAC;
     text-align: center;
     font-size: 0.14rem;
     color: #fff;
     margin: 0 auto;
-    border-radius: 0.3rem;
-    letter-spacing: 0.05rem;
+    border-radius: 0.2rem;
+    letter-spacing: 0.02rem;
     border: 0;
     outline: none;
 }
@@ -220,8 +171,7 @@ input::-webkit-input-placeholder {
 footer{
 	width: 100%;
 	background-color: #363B43;
-	padding-top: 0.5rem;
-	padding-bottom: 1rem;
+	padding: 0.25rem 0;
 }
 footer h4{
 	width: 90%;
@@ -256,8 +206,16 @@ footer img{
 }
 /*摩客价值*/
 .value{
+	width: 100%;
+    background-color: #F4F4F4;
+    padding: 0.3rem 0;
+    margin-top: 14%;
+}
+.value .value-wrap{
 	width: 90%;
-	margin: 0 auto 1rem;
+	margin: 0 auto 0.3rem;
+	background-color: #fff;
+	padding: 0.3rem 0;
 }
 .value .img{
 	width: 1rem;
@@ -270,16 +228,17 @@ footer img{
 .value .tit{
 	font-size: 0.14rem;
 	color: #333;
-	margin: 0.2rem auto 0;
+	margin: 0.3rem auto 0;
 	text-align: center;
 }
 .value p{
-	margin: 0.8rem auto 0.3rem;
-	color: #999;
+	width: 90%;
+	margin: 0.15rem auto 0;
+	color: #333;
 	font-size: 0.16rem;
 	text-align: center;
 }
-.arrow {
+/*.arrow {
     width: 0.3rem;
     height: 0.3rem;
     display: inline-block;
@@ -296,78 +255,40 @@ footer img{
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
-}
+}*/
 /*公司介绍*/
 .company {
       width: 100%;
-      height: 92%;
-      background-color: #FAFAFA;
-    }
-.company .swiper-slide {
-      text-align: center;
-      /*font-size: 18px;*/
-      background: #FAFAFA;
-
-      /* Center slide text vertically */
-      /*display: -webkit-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      align-items: center;*/
-    }
-.company h1{
-	color: #333;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 0.5rem;
-    font-size: 0.34rem;
+      background-color: #F4F4F4;
+      padding: 0.3rem 0;
+      margin-top: 14%;
 }
-.company .txt{
+.company .company-wrap{
 	width: 90%;
-	margin: 0 auto;
-    font-size: 0.18rem;
-    color: #333;
-    margin: 0.2rem auto 0;
-    text-align: center;
+	margin: 0 auto 0.3rem;
+	background-color: #fff;
+	padding: 0.3rem 0;
 }
- .company .introduce .tit {
+ .company .company-wrap .tit {
     font-size: 0.14rem;
     color: #333;
-    margin: 0.35rem auto 0;
+    margin: 0.3rem auto 0;
     text-align: center;
 }
-.introduce{
+.company .company-wrap p {
 	width: 90%;
-	margin: 0.6rem auto 0;
-	background-color: #fff;
-	padding: 0.3rem 0 0.6rem;
-}
-.company .introduce p {
-	width: 90%;
-	margin: 0 auto;
+	margin: 0.15rem auto 0;
     font-size: 0.16rem;
     color: #333;
-    margin: 0.15rem auto 0;
     text-align: center;
 }
-.company .img {
+.company .company-wrap .img {
     width: 1rem;
-    margin: 0.3rem auto 0;
+    margin: 0 auto;
     height: 0.6rem;
     background: url(../img/computer.png) no-repeat;
     background-size: 70%;
     background-position: center;
-}
-.company .margin{
-	margin-top: 1rem;
-	padding: 0.8rem 0 1rem;
 }
 .func {
     display: block;
@@ -382,3 +303,81 @@ footer img{
     border-radius: 0.3rem;
     letter-spacing: 0.05rem;
 }
+.banner{
+	 width: 100%;
+     height: 2.2rem;
+     margin-top: 14%;
+}
+.banner .swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.banner .swiper-pagination-bullet{
+    background: #fff;
+}
+.same{
+	width: 100%;
+	padding: 0.2rem 0;
+}
+.same h1{
+	font-weight: bold;
+	color: #333;
+	text-align: center;
+	margin-top: 0;
+	font-size: 0.24rem;
+}
+.same p{
+	width: 90%;
+	margin: 0.1rem auto 0;
+	color: #333;
+	font-size: 0.18rem;
+	text-align: center;
+}	
+.same .tit{
+	font-size: 0.14rem;
+    color: #333;
+    margin: 0.2rem auto 0.1rem;
+    text-align: center;
+}
+.same .img{
+	 width: 1rem;
+    margin: 0.3rem auto 0;
+    height: 0.6rem;
+    background: url(../img/computer.png) no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+.same .stage{
+	font-size: 0.16rem;
+	overflow:hidden; 
+	text-overflow:ellipsis;
+	display:-webkit-box; 
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:2;
+}
+.same .check{
+    display: block;
+    width: 32%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    background-color: #50D2C2;
+    text-align: center;
+    font-size: 0.14rem;
+    color: #fff;
+    margin: 0.15rem auto 0;
+    border-radius: 0.2rem;
+    letter-spacing: 0.02rem;
+}
+.index-company,.index-case{
+	background-color: #F4F4F4;
+}
+.index-value,.index-business{
+	background-color: #FFF;
+}
+.index-case .img{
+	width: 80%;
+    margin: 0.15rem auto;
+    height: 2rem;
+    background-color: #fff;
+}
+	

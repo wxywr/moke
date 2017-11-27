@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+	<meta name="applicable-device" content="mobile">
+	<title>首页</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css" >
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/animate.min.css"> -->
+</head>
+<body>
+	<header>
+		<div class="fold"></div>
+		<div class="logo"></div>
+	</header>
+	<ul id="accordion" class="accordion">
+		<li>
+			<div class="link"><a href="index.html">首页</a></div>
+		</li>
+		<li>
+			<div class="link"><a href="company.html">公司介绍</a></div>
+		</li>
+		<li>
+			<div class="link"><a href="value.html">摩客价值</a></div>
+		</li>
+		<li>
+			<div class="link"><a href="case.html">案例展示</a></div>
+		</li>
+		<li>
+			<div class="link"><a href="business.html">业务范围</div>
+		</li>
+		<li>
+			<div class="link"><a href="contact.html">联系我们</a></div>
+		</li>
+	</ul>
+	<div class="banner">
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		      <div class="swiper-slide">
+		      	<img src="img/banner-1.jpg" alt="">
+		      </div>
+		      <div class="swiper-slide">
+		      	<img src="img/banner-1.jpg" alt="">
+		      </div>
+		      <div class="swiper-slide">
+		      	<img src="img/banner-1.jpg" alt="">
+		      </div>
+		    </div>
+		    <!-- Add Pagination -->
+		    <div class="swiper-pagination"></div>
+	 	</div>
+	</div>
+	<div class="index-company same">
+		<h1>公司介绍</h1>
+		<p>遥远的山脉后面，远离国家Vokalia和Consonantia，生活中的盲文。分开他们住在Bookmarksgrove.</p>
+		<div class="img"></div>
+		<div class="tit">从传播到驱动</div>
+		<p class="stage">以极致标准驱动架构革新，不断迭代客户服务体验，重新定义创意服务团队在互动时代的全新形象</p>
+		<a href="company.html" class="check">查看所有功能</a>
+	</div>
+	<div class="index-value same">
+		<h1>摩客价值</h1>
+		<p>遥远的山脉后面，远离国家Vokalia和Consonantia，生活中的盲文。分开他们住在Bookmarksgrove.</p>
+		<div class="img"></div>
+		<div class="tit">建立稳定增长的信任关系</div>
+		<p class="stage">遥远的山脉后面，远离国家Vokalia和Consonantia，生活中的盲文。分开他们住在Bookmarksgrove.</p>
+		<a href="value.html" class="check">查看所有价值</a>
+	</div>
+	<div class="index-case same">
+		<h1>案例展示</h1>
+		<p>遥远的山脉后面，远离国家Vokalia和Consonantia，生活中的盲文。分开他们住在Bookmarksgrove.</p>
+		<div class="img"><img src="img/product_1.jpg" alt=""></div>
+		<div class="tit">案例1</div>
+		<p class="stage">Far far away behind the word mountains.</p>
+		<a href="case.html" class="check">查看所有案例</a>
+	</div>
+	<div class="index-business same">
+		<h1>业务范围</h1>
+		<p>遥远的山脉后面，远离国家Vokalia和Consonantia，生活中的盲文。分开他们住在Bookmarksgrove.</p>
+		<div class="img"></div>
+		<div class="tit">创意设计</div>
+		<p class="stage">遥远的山脉后面，远离国家Vokalia和Consonantia，生活中的盲文。分开他们住在Bookmarksgrove.</p>
+		<a href="business.html" class="check">查看所有产品</a>
+	</div>
+	<form class="contact">
+		<input type="text" placeholder="First Name" class="x">
+		<input type="text" placeholder="Last Name" class="m">
+		<input type="email" placeholder="Email" class="e">
+		<button>请立即提交</button>
+	</form>
+	<footer>
+		<h4>ABOUT</h4>
+		<p>Tour</p>
+		<p>Company</p>
+		<p>Jobs</p>
+		<h4>Support</h4>
+		<p>Help Center</p>
+		<p>Terms of Service</p>
+		<p>Security</p>
+		<h4>MORE LINKS</h4>
+		<p>Feedback</p>
+		<p>Frequently Ask Questions</p>
+		<div class="big">OUTLINE</div>
+		<div class="small">© 2015. All Rights Reserved. </div>
+		<div class="small">by FREEHTML5.co Images: Pexels</div>
+		<img src="img/footer.png" alt="">
+	</footer>
+</body>
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/menu.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<!-- <script type="text/javascript" src="js/swiper.animate1.0.2.min.js"></script> -->
+<script>
+	var swiper = new Swiper('.banner .swiper-container', {
+	    spaceBetween: 0,
+	    centeredSlides: true,
+	    autoplay: {
+	      delay: 3000,
+	      disableOnInteraction: false,
+	    },
+	    pagination: {
+	      el: '.swiper-pagination',
+	      clickable: true,
+	    },
+    });
+</script>
+</html>
