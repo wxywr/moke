@@ -380,4 +380,15 @@ footer img{
     height: 2rem;
     background-color: #fff;
 }
-	
+#toTop{
+	display: inline-block;
+	width: 0.35rem;
+	height: 0.35rem;
+	background: url(../img/top.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: fixed;
+	bottom: 7%;
+	right: 5%;
+	display: none;
+}
