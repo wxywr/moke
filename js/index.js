@@ -19,7 +19,7 @@ $(function(){
 
     //回到顶部
 
-    $("#toTop").click(function () {
+    $(".top").click(function () {
 
 	  	$('html,body').animate({
 
@@ -34,10 +34,20 @@ $(function(){
     $(document).scroll(function(){
         var top = $(document).scrollTop();
         if(top > 500)
-            $("#toTop").show();
+            $("#toTop_1").show();
         else{
-        	$("#toTop").hide();
+        	$("#toTop_1").hide();
         }
     });
+
+
+	$(window).scroll(function () {  
+	    if ($(document).scrollTop() + $(window).height() >= $(document).height()) {  
+	        $(".alert").fadeIn().delay(1500).fadeOut();
+	    } 
+	    else{
+	    	$(".alert").fadeOut();
+	    } 
+	});
 	
 });
