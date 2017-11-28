@@ -43,8 +43,8 @@ $(function(){
 
 	$(window).scroll(function () {  
 	    if ($(document).scrollTop() + $(window).height() >= $(document).height()) {  
-	        $(".alert").fadeIn().delay(1000).fadeOut();
-	        $(".alert p").fadeIn().delay(1000).fadeOut();
+	        $(".alert").fadeIn().delay(1500).fadeOut();
+	        $(".alert p").fadeIn().delay(1500).fadeOut();
 	    } 
 	});
 	

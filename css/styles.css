@@ -404,6 +404,8 @@ footer img{
 }
 .alert p{
 	width: 80%;
+	height: 0.46rem;
+	line-height: 0.46rem;
 	background-color: #fff;
 	color: #333;
 	text-align: center;
@@ -411,9 +413,8 @@ footer img{
 	left: 50%;
 	top: 50%;
 	font-size: 0.18rem;
-	padding: 0.1rem 0;
 	border-radius: 0.05rem;
-	margin-left: -40%;
+	margin: -0.23rem 0 0 -40%;
 	display: none;
 }
 /*.alert{
