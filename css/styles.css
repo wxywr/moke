@@ -411,9 +411,10 @@ footer img{
 	left: 50%;
 	top: 50%;
 	font-size: 0.18rem;
-	padding: 0.15rem 0;
+	padding: 0.1rem 0;
 	border-radius: 0.05rem;
 	margin-left: -40%;
+	display: none;
 }
 /*.alert{
 	width: 80%;
