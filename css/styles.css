@@ -16,8 +16,8 @@ html{font-size: 100px;}
 .fr{float:right;}
 header{
 	width: 100%;
-	height: 8%;
-	background-color: red;
+	height: 0.5rem;
+	background-color: #000;
 	/*overflow: hidden;*/
 	position: fixed;
 	left: 0;
@@ -50,7 +50,7 @@ header .fold{
     width: 100%;
     background-color: #F4F4F4;
     padding: 0.3rem 0;
-    margin-top: 14%;
+    margin-top: 12%;
 }
 .news .news-wrap{
 	width: 90%;
@@ -100,7 +100,7 @@ header .fold{
 	width: 100%;
     background-color: #F4F4F4;
     padding: 0.3rem 0;
-    margin-top: 14%;
+    margin-top: 12%;
 }
 .business-wrap .bs-all{
 	width: 90%;
@@ -134,7 +134,7 @@ header .fold{
 	background-color: #4FD2C2;
 	width: 100%;
 	padding: 0.5rem 0;
-	margin-top: 14%;
+	margin-top: 12%;
 }
 .contact input{
 	display: block;
@@ -209,7 +209,7 @@ footer img{
 	width: 100%;
     background-color: #F4F4F4;
     padding: 0.3rem 0;
-    margin-top: 14%;
+    margin-top: 12%;
 }
 .value .value-wrap{
 	width: 90%;
@@ -261,7 +261,7 @@ footer img{
       width: 100%;
       background-color: #F4F4F4;
       padding: 0.3rem 0;
-      margin-top: 14%;
+      margin-top: 12%;
 }
 .company .company-wrap{
 	width: 90%;
@@ -306,7 +306,7 @@ footer img{
 .banner{
 	 width: 100%;
      height: 2.2rem;
-     margin-top: 14%;
+     margin-top: 12%;
 }
 .banner .swiper-container {
     width: 100%;
